@@ -51,7 +51,7 @@
       {% for show in shows %}
         <figure>
             <div class="fig-img">
-            <img loading="lazy" src="{{show.image}}">
+            <img loading="lazy" src="{{show.image}}" alt="{{show.name}} logo">
             </div>
             <figcaption>
             <!-- {{show.id}} -->
@@ -60,7 +60,7 @@
             </figcaption>
         </figure>
     {% endfor %}
-    
+
       <footer>
         Keith F'em, a community radio experiment, is presented by Keith in conjunction with SP2.<br><a href="mailto:hello@keithfem.com">hello@keithfem.com</a>
       </footer>
